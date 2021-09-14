@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html> 
+
+<style>
+ ul.lists {
+   list-style-type: circle;
+ }
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+</style>
+<body>
+<form>
+  <strong><label for="fname">First name:</label></strong>
+  <input type="text" id="fname" name="fname" required><br>
+  <strong><label for="lname">Last name:</label></strong>
+  <input type="text" id="lname" name="lname"><br><br>
+
+ <strong><label for="address">address:</label></strong>
+<textarea id="address" name="address" rows="4" cols="50"> </textarea><br>
+
+  <strong><label for="course">Course</label></strong>
+    <select id="course" name="course">
+      <option value="None">None</option>
+      <option value="Secondary School">Secondary School</option>
+      <option value="Btech">Btech</option>
+      <option value="MCA">MCA</option>
+    </select><br><br>
+
+<strong><label for="gender">Gender:</label></strong><br>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label><br>
+
+<strong><label for="interests">Interests:</label></strong><br>
+<input type="checkbox"  name="singing" >
+  <label for="singing"> singing</label><br>
+  <input type="checkbox"  name="dancing" >
+  <label for="dancing">dancing</label><br>
+  <input type="checkbox" name="Coding" >
+  <label for="Coding">Coding</label><br>
+  <input type="checkbox"  name="Handycraft" >
+  <label for="Handycraft">Handycraft</label><br>
+  <input type="checkbox" name="others">
+  <label for="others">others</label><br>
+  
+
+  <br><button onclick="myFunction()">Submit</button>
+
+  <script>
+  function myFunction() {
+   alert("You have successfully submitted your details.");
+  }
+  </script>
+
+
+</form>
+<br>
+<iframe src="file:///C:/Users/USER/Desktop/img.html"></iframe>
+<br><br>
+    <table> 
+
+        <tr> 
+            <td><b>Firstname<b></td> 
+            <td><b>Lastname<b></td> 
+            <td><b>Course<b></td> 
+        </tr> 
+        <tr>
+            <td>Athira</td> 
+            <td>Venugopal</td> 
+            <td>Mca</td> 
+        </tr> 
+        <tr> 
+            <td>Anjali</td> 
+            <td>V P</td> 
+            <td>Btech</td> 
+        </tr> 
+        <tr> 
+            <td>Aiswarya</td> 
+            <td>M</td> 
+            <td>Secondary School</td> 
+        </tr> 
+
+    </table> 
+<br>
+<iframe src="file:///C:/Users/USER/Desktop/img.html"></iframe>
+
+  
+</body> 
+  
+</html> 
